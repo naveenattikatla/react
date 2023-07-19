@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  align-items: center;
+  width: auto;
+}
+
+.left {
+  margin-right: 40px;
+}
+.left img {
+  width: 50px;
+  margin: 10px 40px 0 10px;
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.center .input {
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.input:focus {
+  border: 3px solid crimson;
+}
+
+.right {
+  margin-left: 40px;
+}
+.right img {
+  margin: 10px 2px 0 0;
+}
+.center button {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+button:focus {
+  background-color: green;
+}
+.App {
+  text-align: center;
+}
